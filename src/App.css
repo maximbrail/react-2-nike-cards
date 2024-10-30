@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 10px;
+  flex-wrap: wrap;
+}
+
+
+
+.card1 {
+  background-color: rgb(182, 53, 53);
+}
+
+.card2 {
+  background-color: rgb(99, 188, 247);
+
+  img {
+    transform: translateY(30px);
+    scale: 1.16;
+  }
+}
